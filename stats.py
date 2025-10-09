@@ -24,5 +24,4 @@ def get_sorted_character_list(characters_dict):
             sorted_list.append({"char": character, "num": num})
 
     sorted_list.sort(reverse=True, key=sort_on)
-    
     return sorted_list

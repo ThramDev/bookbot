@@ -15,9 +15,6 @@ def main():
     sorted_characters = get_sorted_character_list(characters_dict)
     print_report(book_path, word_count, sorted_characters)
 
-
-
-
 def print_report(book_path, num_words, sorted_characters_list):
     print(f"============ BOOKBOT ============")
     print(f"Analyzing book found at {book_path}")
